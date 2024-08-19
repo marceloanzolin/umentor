@@ -10,11 +10,14 @@ Respositório Umentor
 2. **Configuração da Conexão com a Base de Dados**
 
 A configuração da conexão com a base de dados deve ser ajustada no arquivo: \application\config\database.php
+
     Atualize os seguintes parâmetros conforme necessário:
+
     'username' => '',
     'password' => '',
     'database' => '',
 
 3. **Configuração da URL**
 A configuração da URL do projeto deve ser ajustada no arquivo: \application\config\config.php
+
 $config['base_url'] = 'http://localhost/umentor/';
